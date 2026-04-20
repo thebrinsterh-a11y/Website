@@ -1,0 +1,44 @@
+/* Custom Stylesheet for Chocolate Milk Page */
+body {
+    background-color: #f3e5ab; /* Vanilla/Milk color background */
+    font-family: 'Georgia', serif; /* Custom font family */
+    color: #3d2b1f; /* Chocolate brown font color */
+    margin: 0;
+    padding: 20px;
+}
+
+.content-box {
+    background-color: #ffffff;
+    border: 3px solid #7b3f00; /* Chocolate border */
+    padding: 25px;
+    margin: 20px auto;
+    width: 75%;
+    border-radius: 15px; /* Div 1 for positioning/styling */
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+
+.video-container {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #7b3f00;
+    color: white; /* Div 2 for positioning/styling */
+}
+
+.footer-nav {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #3d2b1f; /* Div 3 for positioning/styling */
+}
+
+.footer-nav a {
+    color: #f3e5ab;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
